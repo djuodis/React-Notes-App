@@ -11,18 +11,29 @@ body {
     margin: auto;
 }
 
-.container {
+.add__button {
+    width: 100%;
     display: flex;
     justify-content: end;
     margin-top: 15px;
+    
 }
 
 .notes {
     display: flex;
     justify-content: center;
-    gap: 100px
+    gap: 50px;
+    flex-wrap: wrap;
+    
+}
+
+.add__button {
+    top: -10px;
+    position: fixed;
+    right: 20px;
 }
 button {
+    
     background: #9ec862;
     color: white;
     padding: 10px 15px ;
@@ -39,11 +50,16 @@ button:hover {
 .note {
     background: white;
     margin-top: 50px;
-    width: 30%;
+    width: 300px;
     min-height: 500px;
 }
 .content {
-    padding: 15px;
+    padding: 10px;
+    text-align: start;
+}
+
+.content p {
+    width: 280px;
 }
 .buttons {
     background: #9ec862;
@@ -57,4 +73,9 @@ button:hover {
 .delete {
     border-radius: 0px;
     box-shadow: none
+}
+
+textarea { 
+    line-break: auto;
+    width: 280px;
 }
