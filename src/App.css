@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins
+}
+
+body {
+    background: #7bdaf3;
+    width: 90%;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+}
+
+.notes {
+    display: flex;
+    justify-content: center;
+    gap: 100px
+}
+button {
+    background: #9ec862;
+    color: white;
+    padding: 10px 15px ;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #82a550;
+}
+
+.note {
+    background: white;
+    margin-top: 50px;
+    width: 30%;
+    min-height: 500px;
+}
+.content {
+    padding: 15px;
+}
+.buttons {
+    background: #9ec862;
+    display: flex;
+    justify-content: end;
+}
+.edit {
+    border-radius: 0px;
+    box-shadow: none
+}
+.delete {
+    border-radius: 0px;
+    box-shadow: none
+}
